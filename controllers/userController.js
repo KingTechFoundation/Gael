@@ -51,7 +51,7 @@ const userController = {
               },
             });
 
-            const verificationUrl = `http://localhost:3000/api/users/verify-email/${verificationToken}`;
+            const verificationUrl = `https://gael-lko1.onrender.com/api/users/verify-email/${verificationToken}`;
 
             const mailOptions = {
               from: process.env.MAIL_USER,
@@ -99,7 +99,7 @@ const userController = {
       }
 
       // Redirect to the login page on successful verification
-      res.redirect('http://localhost:5173/login');
+      res.redirect('https://gaelinnovationproject.netlify.app/login');
     });
   },
 
@@ -133,7 +133,7 @@ const userController = {
           return res.status(404).json({ message: 'Email not found.' });
         }
 
-        const resetUrl = `http://localhost:5173/reset-password/${resetToken}`;
+        const resetUrl = `https://gaelinnovationproject.netlify.app/reset-password/${resetToken}`;
         const transporter = nodemailer.createTransport({
           service: process.env.MAIL_SERVICE,
           auth: {

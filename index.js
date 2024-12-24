@@ -13,7 +13,7 @@ app.use(express.json());
 // Allowed origins (updated to remove trailing slashes)
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://elearningplatiform.netlify.app',
+  'https://gaelinnovationproject.netlify.app',
 ];
 
 const allowedHeaders = ['Content-Type', 'Authorization'];
