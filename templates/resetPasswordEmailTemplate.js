@@ -77,7 +77,7 @@ function resetPasswordEmailTemplate(resetUrl) {
             </p>
             <a href="${resetUrl}" class="button">Reset Your Password</a>
             <p>
-              If you need assistance, feel free to contact us at <a href="mailto:muhirehillary720@gmail.com">muhirehillary720@gmail.com</a> or call +250792397681.
+              If you need assistance, feel free to contact us at <a href="mailto:muhirehillary720@gmail.com">gaellemamy94@gmail.com</a> or call +250 785 351 610.
             </p>
             <p>
               If you didn't make this request, no further action is needed, and you can safely disregard this email.
