@@ -7,9 +7,10 @@ const app = express();
 
 dotenv.config();
 
-const Port = process.env.PORT || 5000;
+const Port = process.env.PORT || 3000;
 app.use(express.json());
 
+// Allowed origins (updated to remove trailing slashes)
 const allowedOrigins = [
   'http://localhost:5173',
   'https://elearningplatiform.netlify.app',
