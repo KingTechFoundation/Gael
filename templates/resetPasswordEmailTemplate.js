@@ -85,8 +85,8 @@ function resetPasswordEmailTemplate(resetUrl) {
           </div>
           <div class="footer">
             <p>
-              &copy; 2024 CodeLearn. All rights reserved.<br>
-              Designed with ❤️ for passionate learners.
+              &copy; 2024 Innovation Project. All rights reserved.<br>
+              Designed with ❤️ for passionate People.
             </p>
           </div>
         </div>
